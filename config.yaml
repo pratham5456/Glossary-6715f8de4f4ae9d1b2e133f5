@@ -1,0 +1,119 @@
+projectName: '{{ProjectName}}'
+baseUrl: https://examplecompany.com
+homeLink: https://examplecompany.com/
+logoLink: /
+ctaText: Get Started
+aboutLink: https://mojoauth.com/about
+productsLink: https://mojoauth.com/products
+portalHeading: CyberSecurity Glossary
+portalDescription: A comprehensive resource for cybersecurity definitions and concepts.
+portalTitle: CybeGloss - Your Cybersecurity Glossary
+searchPlaceholder: Search for terms...
+logoImgUrl: https://examplecompany.com/images/logo.svg
+ctaLink: https://examplecompany.com/auth
+copyrightText: © Copyright 2022 - 2023 company.
+faviconUrl: https://examplecompany.com/images/favicon.ico
+googleTagManagerId: GTM-MB8NQN6
+pagesTitle:
+  prefix: ''
+  suffix: ''
+categoryPagesTitle:
+  prefix: ''
+  suffix: ''
+socialLinks:
+  - platform: Twitter
+    url: https://twitter.com/examplecompany
+  - platform: LinkedIn
+    url: https://www.linkedin.com/company/examplecompany
+  - platform: Instagram
+    url: https://www.instagram.com/example_company/
+theme:
+  primaryColor: '#6a4dff'
+  secondaryColor: '#f3f4f6'
+  backgroundColor: '#ffffff'
+  textColor: '#111827'
+  accentColor: '#fbbf24'
+fonts:
+  - family: Inter
+    weights:
+      - 400
+      - 500
+      - 600
+  - family: Poppins
+    weights:
+      - 500
+      - 600
+      - 700
+configYaml:
+  portalHeading: 'RSA Conference Recap: Key SEO Insights for Cybersecurity Executives'
+  portalDescription: >-
+    World's first AI-driven growth engine for cybersecurity B2B SaaS. Engage
+    prospects, demonstrate expertise, and fuel expansion through customized,
+    data-backed content strategies.
+  portalTitle: 'Boost Brand Authority & Leads: GrackerAI for Cybersecurity SaaS'
+  searchPlaceholder: Search for insights, tips, and strategies
+  logoImgUrl: https://gracker.ai/_astro/logo-white.DuNP12gY_Z22gpAz.svg
+  ctaLink: https://portal.gracker.ai/
+  ctaText: Get started — it's free
+  copyrightText: '&copy; Copyright 2024, Gracker.'
+  faviconUrl: https://gracker.ai/favicon.ico
+  googleTagManagerId: GTM-TPM6JQPC
+  pagesTitle:
+    prefix: ''
+    suffix: ''
+  categoryPagesTitle:
+    prefix: ''
+    suffix: ''
+  socialLinks:
+    - platform: LinkedIn
+      url: https://www.linkedin.com/company/gracker-ai/
+    - platform: Twitter
+      url: https://x.com/grackerAI
+    - platform: Instagram
+      url: https://www.instagram.com/grackerai/
+  theme:
+    primaryColor: '#1A202C'
+    secondaryColor: '#F7FAFC'
+    backgroundColor: '#FFFFFF'
+    textColor: '#2D3748'
+    accentColor: '#2B6CB0'
+  fonts:
+    - family: Poppins
+      weights:
+        - 400
+        - 500
+        - 600
+    - family: Inter
+      weights:
+        - 400
+        - 500
+        - 600
+styleCSS: >-
+  body { font-family: 'Poppins', sans-serif; color: #2D3748; background-color:
+  #FFFFFF; }
+
+  header { background-color: #1A202C; color: #F7FAFC; }
+
+  h1, h2, h3 { color: #2B6CB0; }
+
+  a { color: #2B6CB0; text-decoration: none; }
+
+  a:hover { text-decoration: underline; }
+
+  .btn { background-color: #2B6CB0; color: #FFFFFF; border: none; padding: 10px
+  20px; border-radius: 5px; }
+
+  .btn:hover { background-color: #1A202C; }
+
+  .footer { background-color: #F7FAFC; color: #2D3748; }
+
+  .copyright { font-size: 12px; text-align: center; }
+jsonFilePath: ./input.json
+useAlphabetsCategory: true
+templateRoot:
+  - ./templates
+  - ./templates
+homeTemplatePath: ./templates/homePageTemplate.ejs
+categoryTemplatePath: ./templates/categoryTemplate.ejs
+pageTemplatePath: ./templates/pagesTemplate.ejs
+outputDir: ./output
